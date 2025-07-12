@@ -15,7 +15,7 @@ const TaskListNumbers = () => {
             <h2 className='text-4xl font-bold'>0</h2>
             <h3 className='text-xl font-medium mt-2'>Total Tasks</h3>
         </div>
-        <div className='h-32 rounded-xl bg-yellow-400 py-8 px-6 text-white ${task.color} shadow-md'>
+        <div className='h-32 rounded-xl bg-amber-500 py-8 px-6 text-white ${task.color} shadow-md'>
             <h2 className='text-4xl font-bold'>0</h2>
             <h3 className='text-xl font-medium mt-2'>Total Tasks</h3>
         </div>
