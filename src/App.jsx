@@ -1,15 +1,15 @@
 import React from 'react'
 import Login from './components/Auth/Login'
 import EmployeeDashboard from './components/Dashboard/EmployeeDashboard'
-import TaskList from './components/Others/TaskList'
+import TaskList from './components/Tasklist/TaskList'
 import AdminDashboard from './components/Dashboard/AdminDashboard'
 
 const App = () => {
   return (
     <>
-      {/* <Login /> */}
-      {/* <EmployeeDashboard/> 
-      <TaskList/> */}
+      <Login />
+      <EmployeeDashboard/> 
+      
       <AdminDashboard/>
     </>
   )
