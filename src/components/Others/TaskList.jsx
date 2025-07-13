@@ -43,7 +43,7 @@ const TaskList = () => {
       
       <div className='relative flex-shrink-0 rounded-md h-72 bg-red-400 w-72'>
         <div className='mt-5 absolute  w-full flex justify-between px-5 py-3'>
-          <h3 className='bg-red-600 px-3 py-1 text-sm rounded'>High</h3>
+          <h3 className='bg-red-500 px-3 py-1 text-sm rounded'>High</h3>
           <h4 className='text-sm'>13 Jul 2025</h4>
         </div>
         <div className='pt-21 px-5 pb-2'>
@@ -55,7 +55,7 @@ const TaskList = () => {
       </div>
       <div className='relative flex-shrink-0 rounded-md h-72 bg-green-400 w-72'>
         <div className='mt-5 absolute  w-full flex justify-between px-5 py-3'>
-          <h3 className='bg-red-600 px-3 py-1 text-sm rounded'>High</h3>
+          <h3 className='bg-red-500 px-3 py-1 text-sm rounded'>High</h3>
           <h4 className='text-sm'>13 Jul 2025</h4>
         </div>
         <div className='pt-21 px-5 pb-2'>
@@ -67,7 +67,7 @@ const TaskList = () => {
       </div>
       <div className='relative flex-shrink-0 rounded-md h-72 bg-blue-400 w-72'>
         <div className='mt-5 absolute  w-full flex justify-between px-5 py-3'>
-          <h3 className='bg-red-600 px-3 py-1 text-sm rounded'>High</h3>
+          <h3 className='bg-red-500 px-3 py-1 text-sm rounded'>High</h3>
           <h4 className='text-sm'>13 Jul 2025</h4>
         </div>
         <div className='pt-21 px-5 pb-2'>
@@ -79,7 +79,7 @@ const TaskList = () => {
       </div>
       <div className='relative flex-shrink-0 rounded-md h-72 bg-yellow-400 w-72'>
         <div className='mt-5 absolute  w-full flex justify-between px-5 py-3'>
-          <h3 className='bg-red-600 px-3 py-1 text-sm rounded'>High</h3>
+          <h3 className='bg-red-500 px-3 py-1 text-sm rounded'>High</h3>
           <h4 className='text-sm'>13 Jul 2025</h4>
         </div>
         <div className='pt-21 px-5 pb-2'>
