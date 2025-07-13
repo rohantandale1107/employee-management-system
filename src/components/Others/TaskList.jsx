@@ -42,11 +42,11 @@ const TaskList = () => {
     >
       
       <div className='relative flex-shrink-0 rounded-md h-72 bg-red-400 w-72'>
-        <div className='mt-5 absolute  w-full flex justify-between px-5 py-3'>
+        <div className='mt-4 absolute  w-full flex justify-between px-5 py-3'>
           <h3 className='bg-red-500 px-3 py-1 text-sm rounded'>High</h3>
           <h4 className='text-sm'>13 Jul 2025</h4>
         </div>
-        <div className='pt-21 px-5 pb-2'>
+        <div className='pt-18 px-5 pb-2'>
           <h2 className='text-2xl font-bold'>Build a project website</h2>
           <p className='text-sm mt-4'>
             Task description goes here. This is a brief overview of the task. Lorem ipsum dolor sit amet.
@@ -54,11 +54,11 @@ const TaskList = () => {
         </div>
       </div>
       <div className='relative flex-shrink-0 rounded-md h-72 bg-green-400 w-72'>
-        <div className='mt-5 absolute  w-full flex justify-between px-5 py-3'>
+        <div className='mt-4 absolute  w-full flex justify-between px-5 py-3'>
           <h3 className='bg-red-500 px-3 py-1 text-sm rounded'>High</h3>
           <h4 className='text-sm'>13 Jul 2025</h4>
         </div>
-        <div className='pt-21 px-5 pb-2'>
+        <div className='pt-18 px-5 pb-2'>
           <h2 className='text-2xl font-bold'>Build a project website</h2>
           <p className='text-sm mt-4'>
             Task description goes here. This is a brief overview of the task. Lorem ipsum dolor sit amet.
@@ -66,11 +66,11 @@ const TaskList = () => {
         </div>
       </div>
       <div className='relative flex-shrink-0 rounded-md h-72 bg-blue-400 w-72'>
-        <div className='mt-5 absolute  w-full flex justify-between px-5 py-3'>
+        <div className='mt-4 absolute  w-full flex justify-between px-5 py-3'>
           <h3 className='bg-red-500 px-3 py-1 text-sm rounded'>High</h3>
           <h4 className='text-sm'>13 Jul 2025</h4>
         </div>
-        <div className='pt-21 px-5 pb-2'>
+        <div className='pt-18 px-5 pb-2'>
           <h2 className='text-2xl font-bold'>Build a project website</h2>
           <p className='text-sm mt-4'>
             Task description goes here. This is a brief overview of the task. Lorem ipsum dolor sit amet.
@@ -78,11 +78,11 @@ const TaskList = () => {
         </div>
       </div>
       <div className='relative flex-shrink-0 rounded-md h-72 bg-yellow-400 w-72'>
-        <div className='mt-5 absolute  w-full flex justify-between px-5 py-3'>
+        <div className='mt-4 absolute  w-full flex justify-between px-5 py-3'>
           <h3 className='bg-red-500 px-3 py-1 text-sm rounded'>High</h3>
           <h4 className='text-sm'>13 Jul 2025</h4>
         </div>
-        <div className='pt-21 px-5 pb-2'>
+        <div className='pt-18 px-5 pb-2'>
           <h2 className='text-2xl font-bold'>Build a project website</h2>
           <p className='text-sm mt-4'>
             Task description goes here. This is a brief overview of the task. Lorem ipsum dolor sit amet.
