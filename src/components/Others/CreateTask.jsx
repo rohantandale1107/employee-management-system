@@ -2,7 +2,7 @@ import React from 'react'
 
 const CreateTask = () => {
     return (
-        <div className="p-6 bg-[#1c1c1c] mt- rounded-2xl">
+        <div className="p-6 bg-[#1c1c1c]  rounded-2xl">
             <form className="flex flex-wrap justify-between gap-8">
 
                 <div className="w-full md:w-[55%] space-y-4">

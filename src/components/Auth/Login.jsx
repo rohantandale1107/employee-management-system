@@ -18,7 +18,7 @@ const Login = () => {
 
 
     return (
-        <div className="flex h-screen w-screen items-center justify-center bg-neutral-950">
+        <div className="flex h-screen w-screen items-center justify-center bg-[#111111]">
             <div className="w-full max-w-sm p-8 bg-transparent rounded-xl shadow-lg border border-gray-200">
                 <h2 className="text-2xl font-semibold text-center mb-6 text-white">Login</h2>
                 <form onSubmit={(e)=>{
@@ -47,7 +47,7 @@ const Login = () => {
                     />
                     <button
                         type="submit"
-                        className="bg-red-400 hover:bg-red-500 text-white font-semibold py-3 rounded-lg transition"
+                        className="transition ease-in-out duration-300 bg-red-400 hover:bg-red-500 text-white font-semibold py-3 rounded-lg transition"
                     >
                         Login
                     </button>
