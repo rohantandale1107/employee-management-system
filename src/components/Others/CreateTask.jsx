@@ -2,7 +2,7 @@ import React from 'react'
 
 const CreateTask = () => {
     return (
-        <div className="p-6 bg-[#1c1c1c] mt-7 rounded-2xl">
+        <div className="p-6 bg-[#1c1c1c] mt- rounded-2xl">
             <form className="flex flex-wrap justify-between gap-8">
 
                 <div className="w-full md:w-[55%] space-y-4">
@@ -43,7 +43,7 @@ const CreateTask = () => {
 
                     <button
                         type="submit"
-                        className="w-full mt-2 bg-black hover:bg-[#101010] text-white text-sm px-5 py-3 rounded shadow transition ease-in-out duration-300"
+                        className="w-full mt-2 bg-[#54B586] hover:bg-[#4e8a6d] text-white text-sm px-5 py-3 rounded shadow transition ease-in-out duration-300"
                     >
                         Create Task
                     </button>
