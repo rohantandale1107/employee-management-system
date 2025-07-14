@@ -35,7 +35,7 @@ const App = () => {
       {!user ? <Login handleLogin={handleLogin}/> : ''}
 
 
-      <Login />
+      
       <EmployeeDashboard/> 
       <AdminDashboard/>
     </>
