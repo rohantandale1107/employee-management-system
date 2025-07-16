@@ -9,33 +9,46 @@ import { AuthContext } from './context/AuthProvider'
 
 const App = () => {
 
-  // useEffect(() => {
+  useEffect(() => {
 
-  //   setLocalStorage();
-  //     getLocalStorage()
+    setLocalStorage();
+      // getLocalStorage()
 
-  // }, )
+  }, )
 
 
 
 
   const [user, setUser] = useState(null)
   const authData = useContext(AuthContext);
+
+
+//  useEffect(() => {
+//    if(authData){
+//     const loggedInUser = localStorage.getItem('loggedInUser');
+//    }
+ 
+   
+//  }, [authData])
  
 
-  const handleLogin = (email, password) => {
-    if (email == 'admin@me.com' && password == '123') {
-      setUser('admin')
-
-    }
-    else if ( authData &&  authData.employees.find((e)=> email == e.email && password == e.password)) {
-      setUser('employee')
-
-    }
-    else {
-      alert('Invalid credentials')
-    }
+const handleLogin = (email, password) => {
+  if (
+    authData &&
+    authData.admin &&
+    authData.admin.find((e) => email === e.email && password === e.password)
+  ) {
+    setUser("admin");
+  } else if (
+    authData &&
+    authData.employees &&
+    authData.employees.find((e) => email === e.email && password === e.password)
+  ) {
+    setUser("employee");
+  } else {
+    alert("Invalid credentials");
   }
+};
 
 
 
